@@ -1,6 +1,7 @@
 {
   "name": "react-stack",
-  "description": "",
+  "description": "opinionated react stack",
+  "author": "gvergnaud",
   "version": "0.0.1",
   "scripts": {
     "clean": "rimraf dist",

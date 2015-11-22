@@ -17,10 +17,6 @@ module.exports = {
     new webpack.NoErrorsPlugin()
   ],
   module: {
-    preLoaders: [{
-      test: /\.js$/,
-      loader: "source-map-loader"
-    }],
     loaders: [{
       test: /\.js$/,
       loaders: ['babel'],

@@ -1,8 +1,8 @@
 import React, { Component, PropTypes } from 'react'
 
-import './App.less'
+import './Layout.less'
 
-export default class App extends Component {
+export default class Layout extends Component {
 
   static propTypes = {
     children: PropTypes.oneOfType([

@@ -6,14 +6,14 @@ import rootReducer from './reducers'
 import { reduxReactRouter } from 'redux-router'
 import thunk from 'redux-thunk'
 import createLogger from 'redux-logger'
-import normalize from './middleware/normalize'
 import errorCatcher from './middleware/errorCatcher'
+import apiCall from './middleware/apiCall'
 
 const finalCreateStore = compose(
   applyMiddleware(
     errorCatcher,
     thunk,
-    normalize
+    apiCall
   ),
   reduxReactRouter({ routes, createHistory }),
   applyMiddleware(createLogger())

@@ -1,5 +1,5 @@
-import keyMirror from '../utils/keyMirror'
+import createConstants from '../utils/createConstants'
 
-export default keyMirror(
+export default createConstants(
   // 'CONSTANTS' ...
 )
